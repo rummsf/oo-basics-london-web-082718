@@ -1,6 +1,4 @@
 class Book
-  book = Book.new("Title")
-  book.turn_page
   
   def initialize(title)
     @title = title 
@@ -38,4 +36,7 @@ class Book
     puts "Flipping the page...wow, you read fast!"
   end
 
+  book = Book.new("Title")
+  book.turn_page
+end 
 end 
