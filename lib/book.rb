@@ -1,4 +1,6 @@
 class Book
+  book = Book.new("Title")
+  book.turn_page
   
   def initialize(title)
     @title = title 
